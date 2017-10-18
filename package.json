@@ -1,0 +1,33 @@
+{
+  "name": "altran-backend",
+  "version": "1.0.0",
+  "description": "Backend technical test Altran",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "npm run lint && ava test/**-test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andreybejarano/altran-backend.git"
+  },
+  "author": "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreybejarano/altran-backend/issues"
+  },
+  "homepage": "https://github.com/andreybejarano/altran-backend#readme",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
