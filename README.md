@@ -9,4 +9,4 @@
 ## Libraries / Dependencies
 - AVA
 - Eslint
-- Eslint plugis for stadard 
+- Eslint plugins for stadard 
