@@ -3,10 +3,10 @@ const test = require('ava');
 const request = require('request-promise');
 const config = require('../lib/config');
 
-test('GET /policies/username/:username', async t => {
+test('GET /policies?username=:username', async t => {
 	let options = {
 		method: 'GET',
-		uri: `http://localhost:${config.port}/policies/username/Britney`,
+		uri: `http://localhost:${config.port}/policies?username=Britney`,
 		json: true
 	};
 

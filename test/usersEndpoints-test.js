@@ -14,10 +14,10 @@ test('GET /users/:id', async t => {
 	t.is(typeof user, 'object');
 });
 
-test('GET /users/name/:name', async t => {
+test('GET /users?name=:name', async t => {
 	let options = {
 		method: 'GET',
-		uri: `http://localhost:${config.port}/users/name/Britney`,
+		uri: `http://localhost:${config.port}/users?name=Britney`,
 		json: true
 	};
 
